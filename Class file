@@ -1,1 +1,21 @@
-
+class A {
+    public void run() {
+        
+        System.out.println("Welcome");
+    }
+}
+class B {
+    public void run() {
+       
+        System.out.println("Thank you");
+    }
+}
+ 
+public class WithoutThread {
+    public static void main(String[] args) {
+        A a = new A(); 
+        B b = new b(); 
+        a.run();
+        b.run();
+    }
+}
